@@ -1,0 +1,17 @@
+using System;
+namespace program1
+{
+  class
+  { 
+  //printing hello world on the output screen
+    static void Main(string[]args)
+    {
+      Console.WriteLine("Hello World");
+      
+      /*The purpose of this program is to get us familiar with the basic syntax 
+      and requirements of a programming language*/
+    }
+
+  }
+
+}
