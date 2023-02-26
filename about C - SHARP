@@ -1,0 +1,24 @@
+// C# 
+// is pronounced "C-Sharp".
+
+/* It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
+C# has roots from the C family, and the language is close to other popular languages like C++ and Java */
+
+/* C# is used for Desktop applications ,Web applications, Web services, Web sites, Games etc. C# is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
+As C# is close to C, C++ and Java, it makes it easy for programmers to switch to C# or vice versa */
+
+// C# - SYNTAX
+/* at top we use "using System" means that we can use classes from the System namespace.
+namespace is used to organize your code, and it is a container for classes and other namespaces.
+class is a container for data and methods, which brings functionality to your program.
+Every line of code that runs in C# must be inside a class. */
+// The curly braces {} marks the beginning and the end of a block of code.
+/* Another thing that always appear in a C# program, is the Main method. Any code inside its curly brackets {} will be executed.
+Console is a class of the System namespace, which has a WriteLine() method that is used to output/print text. as previous code gave us output "Hello World!" using WriteLine() method. 
+If you omit the using System line, you would have to write System.Console.WriteLine() to print/output text. */
+// Every C# statement ends with a semicolon ; ps - make sure you use semicolon wisely :)
+//C# is case-sensitive: "MyClass" and "myclass" has different meaning.
+
+
+
+
