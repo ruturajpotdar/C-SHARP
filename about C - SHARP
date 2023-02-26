@@ -38,6 +38,10 @@ In C#, there are different types of variables (defined with different keywords),
 //string - stores text, such as "Hello World". String values are surrounded by double quotes
 //bool - stores values with two states: true or false
 
+//Syntax for variables
+//type variableName = value;
+//Where type is a C# type (such as int or string), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
+
 
 
 
