@@ -5,7 +5,7 @@ namespace program2
     {
         static void Main(string[] args)
         {   
-            //using Writeline() and ReadLine method for Input and Output
+            // using Writeline() and ReadLine method for Input and Output
             string name;
             Console.WriteLine("Please enter your name : ");
             name = Console.ReadLine();
