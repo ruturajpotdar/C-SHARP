@@ -1,0 +1,37 @@
+using System;
+
+namespace programz
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter your email: ");
+            string email = Console.ReadLine();
+
+            //implementing ifelse statement
+            //using bool statement
+            if (email == "ruturajpotdar@gmail.com")
+            {
+                Console.WriteLine("Enter your password ");
+                string password = Console.ReadLine();  
+
+                //using bool statement to check password
+                if (password == "44443333")
+                {
+                    Console.WriteLine("Login Successfull :) ");
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect Password Please Try Again!");
+                }
+            }
+            else 
+            {
+                Console.WriteLine("Invalid Email");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
