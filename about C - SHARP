@@ -41,7 +41,13 @@ In C#, there are different types of variables (defined with different keywords),
 //Syntax for variables
 //type variableName = value;
 //Where type is a C# type (such as int or string), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
-
+//Constants
+/*If you don't want others (or yourself) to overwrite existing values, you can add the "const" keyword in front of the variable type.
+This will declare the variable as "constant", which means unchangeable and read-only.*/
+example of constant :
+const int myNum = 15;
+myNum = 20; // error
+if you try to change const it will give error.
 
 
 
