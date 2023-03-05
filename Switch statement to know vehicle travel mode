@@ -1,0 +1,31 @@
+using System;
+
+namespace switch1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   
+            //to know the way you're travelling using switch statement
+            Console.WriteLine("please enter the type of vehicle i.e train, helicopter, car. ");
+            string mode = Console.ReadLine();
+            //u
+            switch (mode)
+            {
+                case "train":
+                    Console.WriteLine("you're travelling on track");
+                    break;
+                case "helicopter":
+                    Console.WriteLine("you're flying");
+                    break;
+                case "car":
+                    Console.WriteLine("you're travelling by road");
+                    break;
+                default:
+                    Console.WriteLine("Invalid vehicle type");
+                    break;
+            }
+            Console.ReadKey();
+       }
+    }
+}
