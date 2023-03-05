@@ -1,0 +1,46 @@
+using System;
+
+namespace Switch2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   
+            //to know the way you're travelling using switch statement
+            Console.WriteLine("please enter the number from 1-7 to know it's week day ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            //using switch statement
+            switch (number)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday");
+                    break;
+                case 6:
+                    Console.WriteLine("Saturday");
+                    break;
+                case 7:
+                    Console.WriteLine("Sunday");
+                    break;
+              //default if user input the wrong number
+                default:
+                    Console.WriteLine("Invalid number");
+                    break;
+            }
+
+            Console.ReadKey();
+
+        }
+    }
+}
