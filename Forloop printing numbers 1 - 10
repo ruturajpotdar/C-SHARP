@@ -1,0 +1,16 @@
+using System;
+namespace forloop1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   //using for loop statement
+            for (int x = 0; x <= 50; x++) 
+            {
+                Console.WriteLine(x);
+            }
+            //Console.ReadKey to hold console
+           Console.ReadKey();
+        }
+    }
+}
