@@ -1,0 +1,22 @@
+using System;
+namespace forloop1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Enter a number to know it's table");
+            //Converting String value to int using convert method
+            int number = Convert.ToInt32(Console.ReadLine());
+            for (int x = 1; x <= 10; x++) 
+            {   
+                //using table format for it's output
+                Console.WriteLine(number + " X " + x + " = " + number * x); 
+            }
+
+            Console.ReadKey();
+        }
+
+    }
+}
