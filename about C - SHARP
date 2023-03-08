@@ -54,5 +54,8 @@ if you try to change const it will give error.
 //string name = "soham";
 //Console.WriteLine("Hello " + name);
 //we can also use the + character to add a variable to another variable i.e string fullname = soham + lastName;
+//For numeric values, the + character works as a mathematical operator (notice that we use int (integer) variables here):
+int x = 5, y = 6;
+Console.WriteLine(x + y); // Printing the value of x + y
 
 
