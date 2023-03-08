@@ -48,6 +48,11 @@ example of constant :
 const int myNum = 15;
 myNum = 20; // error
 if you try to change const it will give error.
-
+//The WriteLine() method is often used to display variable values to the console window.
+//To combine both text and a variable, use the + character:
+//for example 
+//string name = "soham";
+//Console.WriteLine("Hello " + name);
+//we can also use the + character to add a variable to another variable i.e string fullname = soham + lastName;
 
 
