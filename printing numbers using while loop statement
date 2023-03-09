@@ -5,15 +5,16 @@ namespace whileloop
     {
         static void Main(string[] args)
         {
-            int x = 0;
+            int number;
+            Console.WriteLine("Please enter the number to knows it's multiplication table");
+            number = Convert.ToInt32(Console.ReadLine());
+
+            int x = 1;
             
-            //using while loop statement
-            while (x < 100)
+            while(x <= 10)
             {
-                Console.WriteLine(x);
-                //incrementing x's value
+                Console.WriteLine(number + "X" + x + "=" + number*x);
                 x++;
-                
             }
 
             Console.ReadKey();
