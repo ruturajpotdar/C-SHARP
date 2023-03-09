@@ -1,0 +1,23 @@
+using System;
+namespace whileloop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 0;
+            
+            //using while loop statement
+            while (x < 100)
+            {
+                Console.WriteLine(x);
+                //incrementing x's value
+                x++;
+                
+            }
+
+            Console.ReadKey();
+
+        }
+    }
+}
