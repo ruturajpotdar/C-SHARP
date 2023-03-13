@@ -1,0 +1,22 @@
+using System;
+
+
+namespace pattern1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 0; i < 10; i++) //rows
+            {
+                for (int x = 0; x <= i; x++) //columns
+                {
+                    Console.Write("* "); //space after star for systematic pattern
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+
+        }
+    }
+}
