@@ -1,0 +1,34 @@
+using System;
+
+
+namespace pattern1
+{
+    class Program
+    {   
+        static void pat()
+        {
+            for (int y = 0; y <= 10; y++)
+            {
+                for (int x = 0; x <= y; x++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
+            for (int y = 0; y <= 9; y++)
+            {
+                for (int x = y; x <= 9; x++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
+        }
+        static void Main(string[] args)
+        {
+
+            pat();
+            Console.ReadKey();
+        }
+    }
+}
