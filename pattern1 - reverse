@@ -1,0 +1,25 @@
+using System;
+
+namespace pattern1
+{
+    class Program
+    {   
+        static void pat()
+        {
+            for (int y = 0; y <= 10; y++) //rows
+            {
+                for (int x = y; x <= 10; x++) //columns || stars
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
+        }
+        static void Main(string[] args)
+        {
+
+            pat();
+            Console.ReadKey();
+        }
+    }
+}
